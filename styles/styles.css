@@ -1,0 +1,115 @@
+html {
+  background-color: rgb(240, 240, 240);
+  font-family: google-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin-top: 20.1vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+  height: 380px;
+  margin-left: 8.6%;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+form .NamingSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 310px;
+}
+form .NamingSection .twoNames {
+  margin-left: 15px;
+}
+form .NamingSection input {
+  width: 8.2em;
+  height: 1.5em;
+  margin-left: 5px;
+  border-radius: 7px;
+  border: 0.5px solid rgb(52, 52, 52);
+  box-shadow: 1px 1px 1.5px rgb(110, 110, 110);
+}
+form .NamingSection input:focus {
+  outline: none;
+}
+form .NamingSection input::-moz-placeholder {
+  color: rgb(190, 190, 190);
+}
+form .NamingSection input::placeholder {
+  color: rgb(190, 190, 190);
+}
+form .emailDob {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0 0 311px;
+}
+form .inPut {
+  height: 1.5em;
+  margin-left: 5px;
+  border-radius: 7px;
+  border: 1px solid rgb(52, 52, 52);
+  box-shadow: 1px 1px 1.5px rgb(110, 110, 110);
+}
+form .inPut:focus {
+  outline: none;
+}
+form .inPut::-moz-placeholder {
+  color: rgb(190, 190, 190);
+}
+form .inPut::placeholder {
+  color: rgb(190, 190, 190);
+}
+form #emailInput {
+  width: 22em;
+}
+form #dateInput {
+  width: 15.5em;
+}
+form .genderReveal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0 0 -135px;
+}
+form .genderReveal img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+form .genderReveal #checkBox {
+  width: 15px;
+  height: 15px;
+}
+form #submitButton {
+  height: 2em;
+  width: 8.5em;
+  margin-left: 395px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(45, 45, 45);
+  border-radius: 13px;
+  border: none;
+  transition: 2ms;
+}
+form #submitButton:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 3.5px rgb(110, 110, 110);
+}
+form .heroContainer {
+  margin: 80px 0 0 0;
+}
+
+.loopIcon {
+  margin: -285px 0 0 150px;
+  width: 330px;
+}/*# sourceMappingURL=styles.css.map */

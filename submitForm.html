@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Card</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <form action="mailto: utsavbca@vac.edu.np?subject=Form-Data" method="post" enctype="text/plain">
+      <div class="heroContainer">
+      <div class="NamingSection">
+        <label for="">First Name: </label>
+        <input type="text" name="fisrtName" value="" id="nameContainer" placeholder="First Name" /><br /><br />
+
+        <label for="" class="twoNames">Middle Name: </label>
+        <input type="text" name="midName" value="" id="nameContainer" placeholder="(optional)" /><br /><br />
+
+        <label for="" class="twoNames">Last Name: </label>
+        <input type="text" name="lastName" value="" id="nameContainer" placeholder="Last Name" /><br /><br />
+      </div>
+
+      <div class="emailDob">
+        <label for="E-mail" id="">Email: </label>
+        <input
+          type="email"
+          name="email"
+          value=""
+          class="inPut"
+          id="emailInput"
+          placeholder="example@.com"
+        />
+        <label for="Date" style="margin-left: 12px;">Date of birth: </label>
+        <input type="text" 
+        name="dateofBirth"
+        value=""
+        class="inPut"
+        id="dateInput"
+        placeholder="MM/DD/YEAR" /><br /><br />
+      </div>
+
+      <div class="genderReveal">
+      <label for="gender-reveal"
+        >Gender: <label for="Male"><img src="./images/male2_85199.ico" alt=""/></label
+        ><input type="radio" value="male" name="gender" id="checkBox"/>
+        <label for="Female"><img src="./images/female4_85204.ico" alt=""/></label
+        ><input type="radio" value="female" name="gender" id="checkBox"/> </label
+      >
+    </div><br /><br />
+
+      <input type="submit" value="Send" id="submitButton" onclick="popUp()"/>
+    </div>
+    </form>
+    <div class="loopIcon">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/xzalkbkz.json"
+    trigger="loop"
+    delay="2500"
+    stroke="light"
+    state="hover-wave"
+    colors="primary:#848484,secondary:#545454"
+    style="width:150px;height:150px">
+</lord-icon>
+<lord-icon
+    src="https://cdn.lordicon.com/qitvuzec.json"
+    trigger="loop"
+    delay="2500"
+    stroke="light"
+    state="hover-nodding"
+    colors="primary:#848484,secondary:#545454"
+    style="width:150px;height:150px">
+</lord-icon>
+</div>
+
+    <script>
+      function popUp() {
+        alert("Form submitted successfully!!!");
+      }
+    </script>
+  </body>
+</html>
