@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <nav>
+      <h3 id="nameTag">WorkshopDay</h3>
+      <section class="navBar">
+        <ul>
+          <li><a href="###">semester1</a></li>
+          <li><a href="###">semester2</a></li>
+          <li><a href="###">Contact</a></li>
+        </ul>
+      </section>
+    </nav>
+
+    <section class="imgSide">
+      <img src="./imgsection/image1.jpg" alt="" />
+
+      <aside class="sideContent">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio id
+          modi, magnam facilis recusandae dignissimos omnis error reiciendis
+          voluptate dolorem repellat fugit? Saepe, corrupti labore eligendi amet
+          ab dolorem nam. Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Eum qui quia aliquid? Esse ratione ipsam doloribus a voluptatum
+          accusantium voluptatibus necessitatibus? Libero alias nulla dolores
+          vitae consequatur exercitationem nihil sit. Sit alias tempora quam
+          similique tenetur amet vel voluptatum expedita necessitatibus
+          cupiditate, asperiores perspiciatis earum assumenda saepe voluptatibus
+          cum quisquam doloremque ea iusto? Soluta maxime id error quae
+          perspiciatis totam. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Libero quasi ea excepturi, deserunt rem repellat
+          reiciendis natus placeat magni eos commodi harum error accusantium
+          numquam aut fugiat vitae doloremque quod. Porro praesentium tempora
+          minima placeat molestias saepe, libero modi, at non quod provident
+          ducimus in autem soluta quam aliquid cupiditate id? Aut, id. Maxime
+          exercitationem repellendus sed laboriosam ooalgo..
+        </p>
+      </aside>
+    </section>
+
+    <section class="imgSide" id="downImage">
+      <aside class="secondAside">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio id
+          modi, magnam facilis recusandae dignissimos omnis error reiciendis
+          voluptate dolorem repellat fugit? Saepe, corrupti labore eligendi amet
+          ab dolorem nam. Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Eum qui quia aliquid? Esse ratione ipsam doloribus a voluptatum
+          accusantium voluptatibus necessitatibus? Libero alias nulla dolores
+          vitae consequatur exercitationem nihil sit. Sit alias tempora quam
+          similique tenetur amet vel voluptatum expedita necessitatibus
+          cupiditate, asperiores perspiciatis earum assumenda saepe voluptatibus
+          cum quisquam doloremque ea iusto? Soluta maxime id error quae
+          perspiciatis totam. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit.
+        </p>
+      </aside>
+      <img src="./imgsection/image2.jpg" alt="" id="secondImage" />
+    </section>
+
+    <footer>
+      <p>
+        Static webpage design; College workshop for a week. Program BCA,
+        <a id="myLink" href="https://vac.edu.np/" target="_blank">visit college?</a>
+      </p>
+    </footer>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+            const link = document.getElementById('myLink');
+
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+
+                const userChoice = window.confirm('Do you want to proceed to the link?');
+                if (userChoice) {
+                    window.open(link.href, '_blank');
+                } else {
+                    alert('Staying on the current page!');
+                }
+            });
+        });
+  </script>
+</html>
